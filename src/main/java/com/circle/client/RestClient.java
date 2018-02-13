@@ -21,7 +21,7 @@ import com.circle.model.Square;
 public class RestClient {
 	
 	private static final String REST_URI_API = "http://localhost:8080/circle-api/rest/circle";
-	private static final String REST_URI_SERVER = "http://localhost:9090/circle-server";
+	private static final String REST_URI_SERVER = "http://localhost:8090/circle-server";
     private Client client = ClientBuilder.newClient();
 
     public Response createJsonCircleApi(Circle circle) {

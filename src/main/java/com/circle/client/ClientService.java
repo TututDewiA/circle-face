@@ -4,6 +4,8 @@ import javax.ws.rs.core.Response;
 
 import com.circle.model.Square;
 
+import com.circle.view.MainController;
+
 public class ClientService {
 
 	private static RestClient client = new RestClient();

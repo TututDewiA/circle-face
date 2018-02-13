@@ -8,6 +8,7 @@ import javax.faces.bean.RequestScoped;
 import com.circle.client.Circle;
 import com.circle.client.ClientService;
 import com.circle.model.Square;
+import com.circle.view.MainController;;
 
 @ManagedBean 
 @RequestScoped 
